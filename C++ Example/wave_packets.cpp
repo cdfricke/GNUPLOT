@@ -51,9 +51,9 @@ double superposition(double x, parameters* params)
 int main()
 {
     // initialize params structure and assign values.
-    parameters* myParams_ptr;
+    parameters* myParams_ptr = new parameters;
     myParams_ptr->alpha = 60.0;
-    myParams_ptr->beta = 58.0;
+    myParams_ptr->beta = 55.0;
 
     // output to .dat file for processing by GNUPLOT script file
     ofstream toFile ("wave_packets.dat");
