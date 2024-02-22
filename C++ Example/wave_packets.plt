@@ -27,4 +27,4 @@ set yrange [-4:4]
 # plot!
 plot "wave_packets.dat" using ($1):($2)
 
-pause -1 "Hit any key to quit"
+pause -1 "Hit ENTER key to quit"
