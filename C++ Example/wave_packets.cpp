@@ -64,8 +64,5 @@ int main()
         toFile << fixed << setprecision(6) << x << "  " << superposition(x, myParams_ptr) << endl;
     }
     toFile.close();
-
-    // from <cstdlib>, this is used to automatically call the gnuplot command to plot our results.
-    system("gnuplot wave_packets.plt");
     return 0;
 }

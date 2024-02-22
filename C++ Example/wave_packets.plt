@@ -1,8 +1,8 @@
 # GNUPLOT Script for plotting of results from wave_packets.cpp
 # by Connor Fricke (cd.fricke23@gmail.com), 8-Feb-2024
 #
-# This script can be run from a Bash terminal. I recommend using the --persist option
-# unless using the png terminal, in which case it is not necessary.
+# This script can be run from a Bash or Powershell terminal. I recommend using the --persist 
+# option in Bash unless using the png terminal, in which case it is not necessary.
 #
 # $ gnuplot {--persist} "wave_packets.plt"
 ######################################################################################
@@ -28,4 +28,3 @@ set yrange [-4:4]
 plot "wave_packets.dat" using ($1):($2)
 
 pause -1 "Hit any key to quit"
-quit
