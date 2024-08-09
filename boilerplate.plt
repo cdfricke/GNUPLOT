@@ -25,4 +25,4 @@ set rmargin 10
 # PLOTTING
 set xrange [0:10]
 set yrange [-2:2]
-plot 'data.dat' using ($1):($2) with linesp lc black lw 2 pt 6 notitle
+plot sin(x) with linesp lc black lw 2 pt 6 notitle
